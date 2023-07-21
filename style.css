@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, html {
+    background: lightgray;
+}
+
+header {
+    background: yellow;
+    padding: 15px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.branco {
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.61);
+}
+
+menu {
+    text-align: center;
+}
+
+menu > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.582);
+    border-radius: 5px 5px;
+}
+
+menu > a:hover {
+    background-color: white;
+    color: yellow;
+}
+
+main {
+    width: 920px;
+    margin: 0 auto;
+}
+
+section {
+    width: 600px;
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    float: left;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.63);
+}
+
+section > h2 {
+    color: rgb(100, 100, 100);
+    padding-bottom: 10px;
+    margin: auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.685);
+}
+
+section a, aside a {
+    color: yellow;
+    padding-bottom: 5px;
+}
+
+aside {
+    width: 240px;
+    float: right;
+    margin-top: 10px;
+    background: white;
+    padding: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.616);
+}
+
+aside > h3 {
+    color: rgb(134, 134, 134);
+    background: lightgray;
+    padding: 3px;
+}
+
+aside p {
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
+.categorias > a{
+    display: block;
+    text-decoration: none;
+}
+
